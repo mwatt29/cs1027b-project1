@@ -23,39 +23,7 @@ Environment Setup:
 
 Install Java Development Kit (JDK) if not already installed.
 Use any IDE (e.g., IntelliJ IDEA, Eclipse) or a text editor and compile the program via the command line.
-Running the Code:
 
-Compile the files using:
-bash
-Copy code
-javac Node.java DoublyLinkedList.java
-Create a main method in another file (e.g., Main.java) to test the functionality:
-java
-Copy code
-public class Main {
-    public static void main(String[] args) {
-        DoublyLinkedList list = new DoublyLinkedList();
-        
-        list.add(10);
-        list.add(20);
-        list.add(30);
-        list.print(); // Output: 10 20 30 
-
-        list.remove(20);
-        list.print(); // Output: 10 30
-
-        list.reverse();
-        list.print(); // Output: 30 10
-
-        list.deleteList();
-        list.print(); // Output: (empty line)
-    }
-}
-Compile and run:
-bash
-Copy code
-javac Main.java
-java Main
 Technologies/Libraries Used
 Language: Java
 Core Libraries:
